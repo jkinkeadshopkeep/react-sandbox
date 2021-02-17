@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#useCustomFormHook when form is cleared update and render correctly 1`] = `
+<DocumentFragment>
+  <form>
+    <label
+      for="forename"
+    >
+      Forename
+    </label>
+    <input
+      id="forename"
+      name="forename"
+      type="text"
+      value=""
+    />
+    <label
+      for="surname"
+    >
+      Surname
+    </label>
+    <input
+      id="surname"
+      name="surname"
+      type="text"
+      value=""
+    />
+    <button
+      type="button"
+    >
+      Clear Form
+    </button>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`#useCustomFormHook when initial form values initialized should render input values correctly 1`] = `
+<DocumentFragment>
+  <form>
+    <label
+      for="forename"
+    >
+      Forename
+    </label>
+    <input
+      data-testid="forename"
+      id="forename"
+      name="forename"
+      type="text"
+      value="Joe"
+    />
+    <label
+      for="surname"
+    >
+      Surname
+    </label>
+    <input
+      data-testid="surname"
+      id="surname"
+      name="surname"
+      type="text"
+      value="Bloggs"
+    />
+    <button
+      type="button"
+    >
+      Clear Form
+    </button>
+  </form>
+</DocumentFragment>
+`;
+
+exports[`#useCustomFormHook when input value is updated update and render correctly 1`] = `
+<DocumentFragment>
+  <form>
+    <label
+      for="forename"
+    >
+      Forename
+    </label>
+    <input
+      id="forename"
+      name="forename"
+      type="text"
+      value="Bob"
+    />
+    <label
+      for="surname"
+    >
+      Surname
+    </label>
+    <input
+      id="surname"
+      name="surname"
+      type="text"
+      value="Bloggs"
+    />
+    <button
+      type="button"
+    >
+      Clear Form
+    </button>
+  </form>
+</DocumentFragment>
+`;
