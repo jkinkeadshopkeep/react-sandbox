@@ -1,4 +1,4 @@
-import useCustomFormHook from "../useCustomFormHook";
+import useCustomFormHook from "../../useCustomFormHook";
 
 export default function TestComponent() {
     const [values, formChange, submitForm, clearForm] = useCustomFormHook({

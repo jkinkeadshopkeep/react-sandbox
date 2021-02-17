@@ -43,7 +43,6 @@ exports[`#useCustomFormHook when initial form values initialized should render i
       Forename
     </label>
     <input
-      data-testid="forename"
       id="forename"
       name="forename"
       type="text"
@@ -55,7 +54,6 @@ exports[`#useCustomFormHook when initial form values initialized should render i
       Surname
     </label>
     <input
-      data-testid="surname"
       id="surname"
       name="surname"
       type="text"
