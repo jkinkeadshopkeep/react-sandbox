@@ -1,92 +1,74 @@
-import "./stylesheets/form.css";
+import "./stylesheets/form.scss";
 import useCustomFormHook from "../customHooks/useCustomFormHook"
 
 export default function Form() {
     const [values, formChange, formSubmit, clearForm] = useCustomFormHook({
-        title: "Mr",
         forename: "",
         surname: "",
         email: "",
-        mobile: "",
-        username: "",
-        pin: ""
+        mobile: ""
     });
 
     return (
         <div className={"container"}>
-            <form id="hookForm" onSubmit={formSubmit} className={"form-box"}>
-                <label>
-                    Title:{" "}
-                    <select value={values.title} name="title" onChange={formChange}>
-                        <option value="Mr">Mr</option>
-                        <option value="Miss">Miss</option>
-                        <option value="Mrs">Mrs</option>
-                    </select>
-                </label>
-                <br/>
-                <label>
-                    Forename:{" "}
+
+            <div className={"info-box"}>
+                <div>
+                    <h1>React sandbox</h1>
+                    <p>React sandbox for personal training of with react related tasks</p>
+                </div>
+                <div>
+                    <div>078 0192841</div>
+                    <div>reactsandbox@test.com</div>
+                    <div>992 Testing React Ave, TestWood, Testy McTestville</div>
+                </div>
+            </div>
+            <div>
+                <form id="hookForm" onSubmit={formSubmit} className={"form-box"}>
+                    <label htmlFor="forename">
+                        Forename
+                    </label>
                     <input
                         type="text"
                         value={values.forename}
                         name="forename"
                         onChange={formChange}
                     />
-                </label>
-                <br/>
-                <label>
-                    Surname:{" "}
+                    <br/>
+                    <label htmlFor="surname">
+                        Surname
+                    </label>
                     <input
                         type="text"
                         value={values.surname}
                         name="surname"
                         onChange={formChange}
                     />
-                </label>
-                <br/>
-                <label>
-                    Email:{" "}
+                    <br/>
+                    <label htmlFor="email">
+                        Email
+                    </label>
                     <input
                         type="email"
                         value={values.email}
                         name="email"
                         onChange={formChange}
                     />
-                </label>
-                <br/>
-                <label>
-                    Mobile:{" "}
+                    <br/>
+                    <label htmlFor="mobile">
+                        Mobile
+                    </label>
                     <input
                         type="tel"
                         value={values.mobile}
                         name="mobile"
                         onChange={formChange}
                     />
-                </label>
-                <br/>
-                <label>
-                    Username:{" "}
-                    <input
-                        type="text"
-                        value={values.username}
-                        name="username"
-                        onChange={formChange}
-                    />
-                </label>
-                <br/>
-                <label>
-                    PIN:{" "}
-                    <input
-                        type="password"
-                        value={values.pin}
-                        name="pin"
-                        onChange={formChange}
-                    />
-                </label>
-                <br/>
-                <input type="submit" value="Submit"/>
-                <button type="button" onClick={clearForm}>Clear Form</button>
-            </form>
+                    <br/>
+                    <button type="submit" value="Submit">Submit</button>
+                    <button type="button" onClick={clearForm}>Clear Form</button>
+                </form>
+            </div>
         </div>
     );
 }
