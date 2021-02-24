@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextInputWrapper component renders its children, and a label for an element with the given id 1`] = `
+<DocumentFragment>
+  <label
+    for="foo"
+  >
+    Dummy Label
+  </label>
+  <span>
+    Dummy child
+  </span>
+  <br />
+</DocumentFragment>
+`;

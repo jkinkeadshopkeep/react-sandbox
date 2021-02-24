@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text input component when email input with no error is instantiated renders the email input 1`] = `
+<DocumentFragment>
+  <mock-input-wrapper
+    id="text-input-1"
+    label="Your Name"
+  >
+    <input
+      name="text-input-1"
+      type="email"
+    />
+  </mock-input-wrapper>
+</DocumentFragment>
+`;
+
+exports[`Text input component when telephone input with no error is instantiated renders the telephone input 1`] = `
+<DocumentFragment>
+  <mock-input-wrapper
+    id="text-input-1"
+    label="Your Name"
+  >
+    <input
+      name="text-input-1"
+      type="tel"
+    />
+  </mock-input-wrapper>
+</DocumentFragment>
+`;
+
+exports[`Text input component when text input with no error is instantiated renders the text input 1`] = `
+<DocumentFragment>
+  <mock-input-wrapper
+    id="text-input-1"
+    label="Your Name"
+  >
+    <input
+      name="text-input-1"
+      type="text"
+    />
+  </mock-input-wrapper>
+</DocumentFragment>
+`;
