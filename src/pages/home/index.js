@@ -1,9 +1,11 @@
-import './stylesheets/form.scss';
-import useCustomFormHook from '../customHooks/useCustomFormHook'
-import Button from '../button';
-import TextInput from '../text-input';
+import useCustomFormHook from '../../components/customHooks/useCustomFormHook'
+import Button from '../../components/button';
+import TextInput from '../../components/text-input';
+import InfoBox from "../../components/info-box";
+import ContentContainer from "../../components/content-container";
+import Form from "../../components/form";
 
-export default function Form() {
+export default function Index() {
     const [values, formChange, formSubmit, clearForm] = useCustomFormHook({
         forename: '',
         surname: '',
@@ -12,20 +14,9 @@ export default function Form() {
     });
 
     return (
-        <div className={'container'}>
-            <div className={'info-box'}>
-                <div>
-                    <h1>React sandbox</h1>
-                    <p>React sandbox for personal training of with react related tasks</p>
-                </div>
-                <div>
-                    <div>078 0192841</div>
-                    <div>reactsandbox@test.com</div>
-                    <div>992 Testing React Ave, TestWood, Testy McTestville</div>
-                </div>
-            </div>
-            <div>
-                <form id='hookForm' onSubmit={formSubmit} className={'form-box'}>
+        <ContentContainer>
+            <InfoBox/>
+                <Form id='hookForm' onSubmit={formSubmit}>
                     <TextInput
                         type='text'
                         name='forename'
@@ -56,8 +47,7 @@ export default function Form() {
                     />
                     <Button type='submit' value='Submit'>Submit</Button>
                     <Button type='button' onClick={clearForm}>Clear Form</Button>
-                </form>
-            </div>
-        </div>
+                </Form>
+            </ContentContainer>
     );
 }

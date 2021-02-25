@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import InputWrapper from '../inputWrapper';
 
-describe('TextInputWrapper component', () => {
+describe('InputWrapper component', () => {
   let testContext;
 
   beforeEach(() => {

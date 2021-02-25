@@ -28,7 +28,7 @@ exports[`#useCustomFormHook when form is cleared update and render correctly 1`]
     <button
       type="button"
     >
-      Clear Form
+      Clear Index
     </button>
   </form>
 </DocumentFragment>
@@ -62,7 +62,7 @@ exports[`#useCustomFormHook when initial form values initialized should render i
     <button
       type="button"
     >
-      Clear Form
+      Clear Index
     </button>
   </form>
 </DocumentFragment>
@@ -96,7 +96,7 @@ exports[`#useCustomFormHook when input value is updated update and render correc
     <button
       type="button"
     >
-      Clear Form
+      Clear Index
     </button>
   </form>
 </DocumentFragment>
