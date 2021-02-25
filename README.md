@@ -6,6 +6,7 @@ Training sandbox for react - for mostly personal use.
 * Implemented tests where possible.
 * Be able to submit a form and output JSON.
 * Be able to clear form state and form via a clear button.
+* Migrated a lot of the HTML to its own specific components (Trying to use Atomic design)
 
 **Tasks pending:**
 * Migrate info box to its own component with unit tests.
