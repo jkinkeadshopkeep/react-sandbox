@@ -1,3 +1,4 @@
+import styles from './stylesheets/index.module.scss';
 import useCustomFormHook from '../../components/customHooks/useCustomFormHook'
 import Button from '../../components/button';
 import TextInput from '../../components/text-input';
@@ -47,8 +48,10 @@ export default function Index() {
                         onChange={formChange}
                         value={values.mobile}
                     />
-                    <Button type='submit' value='Submit'>Submit</Button>
-                    <Button type='button' onClick={clearForm}>Clear Form</Button>
+                    <div className={styles['button-left']}>
+                        <Button type='submit' value='Submit'>Submit</Button>
+                        <Button type='button' onClick={clearForm}>Clear Form</Button>
+                    </div>
                 </Form>
             </ContentContainer>
         </MainContainer>

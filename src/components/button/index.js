@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './stylesheets/index.module.scss';
+import styles from './stylesheets/index.module.scss';
 
 const Button = ({children, type, ...rest}) => {
-    return (<button type={type} {...rest}>{children}</button>)
+    return (<button className={styles['button']} type={type} {...rest}>{children}</button>)
 };
 
 Button.propTypes = {

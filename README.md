@@ -14,9 +14,9 @@ Training sandbox for react - for mostly personal use.
 * ~~Wrap form inside a content container.~~
 * ~~Fix main and content background colors.~~
 * Make sure content container does not exceed 960px wide and is centered on desktop.
-* Index buttons need to be side by side.
+* ~~Form buttons need to be side by side.~~
 * Need some SVG's for display in inputs.
-* Add highlighting on active form input.
+* ~~Add highlighting on active form input.~~
 
 **Optional tasks/ideas:**
 * Some fancy SCSS stuff using global styling such as mixins etc.
