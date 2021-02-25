@@ -11,14 +11,14 @@ describe('Text input component', () => {
     label: 'Your Name'
   };
 
-  describe('when text input with no error is instantiated', () => {
+  describe('when text input is rendered', () => {
     it('renders the text input', () => {
       const component = render(createComponent(defaultProps));
       expect(component.asFragment()).toMatchSnapshot();
     });
   });
 
-  describe('when email input with no error is instantiated', () => {
+  describe('when email input is rendered', () => {
     it('renders the email input', () => {
       const component = render(
         createComponent({
@@ -30,7 +30,7 @@ describe('Text input component', () => {
     });
   });
 
-  describe('when telephone input with no error is instantiated', () => {
+  describe('when telephone input is rendered', () => {
     it('renders the telephone input', () => {
       const component = render(
         createComponent({

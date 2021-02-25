@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Text input component when email input with no error is instantiated renders the email input 1`] = `
+exports[`Text input component when email input is rendered renders the email input 1`] = `
 <DocumentFragment>
   <mock-input-wrapper
     id="text-input-1"
@@ -14,7 +14,7 @@ exports[`Text input component when email input with no error is instantiated ren
 </DocumentFragment>
 `;
 
-exports[`Text input component when telephone input with no error is instantiated renders the telephone input 1`] = `
+exports[`Text input component when telephone input is rendered renders the telephone input 1`] = `
 <DocumentFragment>
   <mock-input-wrapper
     id="text-input-1"
@@ -28,7 +28,7 @@ exports[`Text input component when telephone input with no error is instantiated
 </DocumentFragment>
 `;
 
-exports[`Text input component when text input with no error is instantiated renders the text input 1`] = `
+exports[`Text input component when text input is rendered renders the text input 1`] = `
 <DocumentFragment>
   <mock-input-wrapper
     id="text-input-1"
