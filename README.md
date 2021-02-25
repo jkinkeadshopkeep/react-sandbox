@@ -1,13 +1,13 @@
 # react-sandbox
 Training sandbox for react - for mostly personal use.
 
-Tasks completed:
+**Tasks completed:**
 * Examples of hooks E.G using useState to track when the form has been updated and updating its current state.
 * Implemented tests where possible.
 * Be able to submit a form and output JSON.
 * Be able to clear form state and form via a clear button.
 
-Tasks pending:
+**Tasks pending:**
 * Migrate info box to its own component with unit tests.
 * Create content container component with unit tests.
 * Wrap form inside a content container.
@@ -17,6 +17,6 @@ Tasks pending:
 * Need some SVG's for display in inputs.
 * Add highlighting on active form input.
 
-Optional tasks/ideas:
+**Optional tasks/ideas:**
 * Some fancy SCSS stuff using global styling such as mixins etc.
 * Output JSON into a prettified output - new tab? new windows? pop-up?
