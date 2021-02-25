@@ -26,7 +26,7 @@ describe('#useCustomFormHook', () => {
     describe('when form is cleared', () => {
         it('update and render correctly', () => {
             const {asFragment, getByText, getByLabelText} = render(<TestComponent/>);
-            const clearButton = getByText('Clear Index');
+            const clearButton = getByText('Clear Form');
             const forenameInput = getByLabelText('Forename');
             const surnameInput = getByLabelText('Surname');
 

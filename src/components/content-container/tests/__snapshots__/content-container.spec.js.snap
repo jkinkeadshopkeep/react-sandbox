@@ -2,7 +2,7 @@
 
 exports[`Content container Component should render with content inside container 1`] = `
 <div
-  class="container"
+  class="content-container"
 >
   <p>
     Hello am rendered

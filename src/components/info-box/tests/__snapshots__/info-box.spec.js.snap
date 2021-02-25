@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Info Box Component should render with standard class name 1`] = `
+exports[`Info Box Component should render info box component 1`] = `
 <div
   class="info-box"
 >

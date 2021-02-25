@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button Component should render with standard class name 1`] = `
+exports[`Button Component should render button 1`] = `
 <button
   type="button"
 >
