@@ -2,6 +2,7 @@ import useCustomFormHook from '../../components/customHooks/useCustomFormHook'
 import Button from '../../components/button';
 import TextInput from '../../components/text-input';
 import InfoBox from "../../components/info-box";
+import MainContainer from "../../components/main-container";
 import ContentContainer from "../../components/content-container";
 import Form from "../../components/form";
 
@@ -14,8 +15,9 @@ export default function Index() {
     });
 
     return (
-        <ContentContainer>
-            <InfoBox/>
+        <MainContainer>
+            <ContentContainer>
+                <InfoBox/>
                 <Form id='hookForm' onSubmit={formSubmit}>
                     <TextInput
                         type='text'
@@ -49,5 +51,6 @@ export default function Index() {
                     <Button type='button' onClick={clearForm}>Clear Form</Button>
                 </Form>
             </ContentContainer>
+        </MainContainer>
     );
 }

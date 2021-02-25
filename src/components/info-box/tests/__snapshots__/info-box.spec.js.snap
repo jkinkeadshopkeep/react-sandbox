@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Info Box Component should render with standard class name 1`] = `
+<div
+  class="info-box"
+>
+  <div>
+    <h1>
+      React sandbox
+    </h1>
+    <p>
+      React sandbox for personal training of with react related tasks
+    </p>
+  </div>
+  <div>
+    <div>
+      078 0192841
+    </div>
+    <div>
+      reactsandbox@test.com
+    </div>
+    <div>
+      992 Testing React Ave, TestWood, Testy McTestville
+    </div>
+  </div>
+</div>
+`;

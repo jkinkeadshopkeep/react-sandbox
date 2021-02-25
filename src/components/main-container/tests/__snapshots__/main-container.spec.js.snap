@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main container Component should render with content inside container 1`] = `
+<div
+  class="main-container"
+>
+  <p>
+    Hello am rendered
+  </p>
+</div>
+`;

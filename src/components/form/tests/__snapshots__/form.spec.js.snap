@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form Component should render form with an input 1`] = `
+<form
+  class="form-box"
+  id="hookForm"
+  type="button"
+>
+  <label
+    for="forename"
+  >
+    Forename
+  </label>
+  <input
+    name="forename"
+    type="text"
+  />
+  <br />
+</form>
+`;
