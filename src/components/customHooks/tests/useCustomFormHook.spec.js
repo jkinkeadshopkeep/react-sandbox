@@ -7,7 +7,6 @@ describe('#useCustomFormHook', () => {
     describe('when initial form values initialized', () => {
         it('should render input values correctly', () => {
             const {asFragment} = render(<TestComponent/>);
-            screen.debug();
             expect(asFragment()).toMatchSnapshot();
         });
     });

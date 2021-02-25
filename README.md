@@ -9,10 +9,10 @@ Training sandbox for react - for mostly personal use.
 * Migrated a lot of the HTML to its own specific components (Trying to use Atomic design)
 
 **Tasks pending:**
-* Migrate info box to its own component with unit tests.
-* Create content container component with unit tests.
-* Wrap form inside a content container.
-* Fix main and content background colors.
+* ~~Migrate info box to its own component with unit tests.~~
+* ~~Create content container component with unit tests.~~
+* ~~Wrap form inside a content container.~~
+* ~~Fix main and content background colors.~~
 * Make sure content container does not exceed 960px wide and is centered on desktop.
 * Index buttons need to be side by side.
 * Need some SVG's for display in inputs.
