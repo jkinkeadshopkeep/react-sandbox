@@ -1,7 +1,9 @@
-.info-box {
+@media screen and (min-width: 768px) {
+  .info-box {
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     margin: 0 0 380px 0
+  }
 }

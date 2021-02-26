@@ -1,4 +1,5 @@
-input{
+@media screen and (min-width: 768px) {
+  input {
     min-height: 56px;
     margin-bottom: 0;
     padding-left: 42px;
@@ -8,4 +9,5 @@ input{
     border-radius: 8px;
     background-color: #f9f9fb;
     transition: all 300ms ease;
+  }
 }
