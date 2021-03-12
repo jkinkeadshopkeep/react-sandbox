@@ -2,8 +2,11 @@ import useCustomFormHook from "../../useCustomFormHook";
 
 export default function TestComponent() {
     const [values, formChange, submitForm, clearForm] = useCustomFormHook({
-        forename: "Joe",
-        surname: "Bloggs"
+        validations: {},
+        initialValues: {
+            forename: 'Joe',
+            surname: 'Bloggs'
+        }
     });
 
     return (

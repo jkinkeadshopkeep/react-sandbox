@@ -1,0 +1,26 @@
+{
+  "email": {
+    "pattern": {
+      "value": "^\\S+@\\S+$",
+      "message": "Must be an email."
+    }
+  },
+  "forename": {
+    "pattern": {
+      "value": "^[A-Za-z]*$",
+      "message": "You're not allowed ..."
+    }
+  },
+  "mobile": {
+    "pattern": {
+      "value": "^[0-9]*$",
+      "message": "Must be numbers only."
+    }
+  },
+  "surname": {
+    "pattern": {
+      "value": "^[A-Za-z]*$",
+      "message": "You're not allowed ..."
+    }
+  }
+}

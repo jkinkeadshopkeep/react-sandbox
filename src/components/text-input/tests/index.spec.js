@@ -8,7 +8,8 @@ describe('Text input component', () => {
   const createComponent = (props) => <TextInput {...props} />;
   const defaultProps = {
     name: 'text-input-1',
-    label: 'Your Name'
+    label: 'Your Name',
+    error: {}
   };
 
   describe('when text input is rendered', () => {

@@ -6,13 +6,17 @@ import InfoBox from "../../components/info-box";
 import MainContainer from "../../components/main-container";
 import ContentContainer from "../../components/content-container";
 import Form from "../../components/form";
+import RegistrationFormSchema from "../../formSchemas/registrationFormSchema.json"
 
 export default function Index() {
-    const [values, formChange, formSubmit, clearForm] = useCustomFormHook({
-        forename: '',
-        surname: '',
-        email: '',
-        mobile: ''
+    const [values, formChange, formSubmit, clearForm, errors] = useCustomFormHook({
+        validations: RegistrationFormSchema,
+        initialValues: {
+            forename: '',
+            surname: '',
+            email: '',
+            mobile: ''
+        }
     });
 
     return (
@@ -24,6 +28,7 @@ export default function Index() {
                         type='text'
                         name='forename'
                         label='Forename'
+                        error={errors}
                         value={values.forename}
                         onChange={formChange}
                     />
@@ -31,6 +36,7 @@ export default function Index() {
                         type='text'
                         name='surname'
                         label='Surname'
+                        error={errors}
                         value={values.surname}
                         onChange={formChange}
                     />
@@ -38,6 +44,7 @@ export default function Index() {
                         type='email'
                         name='email'
                         label='Email'
+                        error={errors}
                         value={values.email}
                         onChange={formChange}
                     />
@@ -45,6 +52,7 @@ export default function Index() {
                         type='tel'
                         name='mobile'
                         label='Mobile'
+                        error={errors}
                         onChange={formChange}
                         value={values.mobile}
                     />

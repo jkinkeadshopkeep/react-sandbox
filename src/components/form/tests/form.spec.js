@@ -10,6 +10,7 @@ describe('Form Component', () => {
                 type='text'
                 name='forename'
                 label='Forename'
+                error={[]}
             />
         </Form>);
 
